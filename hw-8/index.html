@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>hw_8</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" async></script>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div>
+            <ul id="toDoList"></ul>
+        </div>
+
+        <form id="addTaskForm">
+            <input id="newTask" type="text">
+            <button id="addTask">Добавить</button>
+        </form>
+    </div>
+
+    <script type="text/template" id="taskTemplate">
+      <li class="taskItem">{{title}}</li>
+    </script>
+</body>
+
+</html>

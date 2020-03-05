@@ -1,0 +1,44 @@
+body{
+    background: url("../img/img.jpg")  no-repeat;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+
+}
+.container{
+   text-align: center;
+   padding-top: 50px;
+  
+}
+.wrapper{
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    border:2px solid greenyellow;
+    padding: 30px;
+    min-width: 700px;
+}
+h2{
+    color: yellow;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid grey;
+    font-size: 18px;
+    background-color: yellow;
+    padding: 3px 15px;
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+    min-width: 500px;
+   
+}
+li button{
+  margin-left: 15px;
+  padding: 5px;
+  border: 2px solid red;
+  border-radius: 30%;
+}
+.green{
+    background-color:green;
+}

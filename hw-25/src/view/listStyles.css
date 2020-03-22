@@ -1,0 +1,22 @@
+body{
+    background-color: rgba(26, 85, 29, 0.548);
+}
+#root{
+    width: 60%;
+    margin: 0 auto;
+}
+li{
+    border:2px solid rgb(7, 7, 7);
+    font-size: 30px;
+    margin: 20px;
+    padding: 5px 15px;
+    list-style-type: none; 
+    border-radius: 15px;
+    text-align: center;
+}
+.false{
+    background-color: red;
+}
+.true{
+    background-color:green;
+}

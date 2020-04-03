@@ -1,0 +1,14 @@
+body{
+    background-color: cadetblue;
+}
+
+.list{
+    margin: 0 auto;
+    text-align: center;
+}
+
+th{
+
+    font-size: 24px;
+    color:rgb(22, 13, 13);
+}

@@ -1,0 +1,35 @@
+.chat{
+    width: 500px;
+    height: 350px;
+    border: 3px solid rgb(77, 82, 68);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 15px 0;
+    margin: 30px;
+    background-color: lightcoral;
+
+}
+.message{
+    padding-bottom: 5px;
+    overflow: auto;
+    width: 90%;
+    margin: 0 auto;
+}
+.message > span{
+    display: block;
+    background-color: lightcyan;
+    margin: 3px 0;
+    padding: 3px;
+    font-size: 20px;
+}
+.inputMessage{
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid black;
+    padding-top:5px;
+}
+input{
+    padding-left: 5px;
+}

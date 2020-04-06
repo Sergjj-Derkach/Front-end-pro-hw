@@ -19,7 +19,7 @@ function onMessage(message){
 function renderMessage(messageEvent){
     let span = document.createElement('span');
     span.innerHTML = `<b>${messageEvent.payload.author}</b>: <em>${messageEvent.payload.message}</em>`;
-    listMessages.appendChild(span);
+    listMessages.prepend(span);
 }
 function onAddMessage(e){
     e.preventDefault();

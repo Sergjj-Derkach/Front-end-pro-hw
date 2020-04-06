@@ -22,15 +22,15 @@ function initAlbumsList(){
             span.id = item.id;
             span.classList.add('albumsPhoto');
             albumsList.appendChild(span);
-        });   
+        });
     });
 }
 
 function onCliskAlbums(e){
     if (e.target.classList.contains('albumsPhoto')) {
-        renderPhoto(e);
-        console.log(e.target.id);  
-    }   
+      clearAlbumsPhoto();
+      renderPhoto(e);
+    }
 }
 function renderPhoto(e){
     fetch(`https://jsonplaceholder.typicode.com/photos?albumId=${e.target.id}`)
@@ -47,3 +47,9 @@ function renderPhoto(e){
         });
     });
 };
+
+function clearAlbumsPhoto(){
+  while(albumsPhoto.firstChild){
+    albumsPhoto.removeChild(albumsPhoto.firstChild);
+  }
+}

@@ -1,0 +1,51 @@
+body{
+    background-color: burlywood;
+    color: black;
+    font-size: 20px;
+}
+.container{
+  color: rgb(2, 99, 36);
+  margin: 0 auto;
+}
+.header{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+  color: brown;
+  font-size: 30px;
+  /* border-bottom: 3px solid red; */
+}
+.header > div{
+  margin-left:80px;
+}
+table{
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    padding: 10px 20px;
+    border-top: 3px solid red;
+   
+}
+.input{
+  border-radius:  10px;
+  padding: 3px 10px;
+}
+button{
+  padding: 5px 10px;
+  background-color: crimson;
+}
+.user{
+  margin: 30px 5px;
+}
+#addNewContact{
+  border-radius:  10px;
+  padding: 3px 10px;
+}
+.deleteUser{
+  border-radius:  10px;
+}
+.deleteUser:hover{
+  border-radius: 10px;
+  box-shadow: 0 0 15px 5px rgba(245, 3, 3, 0.787);
+}

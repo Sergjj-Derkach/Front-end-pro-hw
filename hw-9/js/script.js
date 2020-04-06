@@ -19,7 +19,7 @@ function onFormClick(e){
 function addNewContact(){
   const newContsct = document.createElement('tr');
   newContsct.className = 'contactRow';
-  newContsct.innerHTML = '<td>'+ inputName.value + '</td><td>'+ inputSurname.value + '</td><td>'+ inputPhone.value +'</td><td class="deleteContacts"> X</td>';
+  newContsct.innerHTML = '<td>'+ inputName.value + '</td><td>'+ inputSurname.value + '</td><td>'+ inputPhone.value +'</td><td class="deleteContacts">X</td>';
   contactsList.appendChild(newContsct);
 }
 

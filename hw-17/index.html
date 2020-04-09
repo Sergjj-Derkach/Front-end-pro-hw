@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw-17</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h2 class="noteHeader">Note Board</h2>
+        <ul class="noteBoard"></ul>
+        <form class="formAddNote">
+            <input type="text" id="textNote" class="textNote">
+            <button id="addNote" class="addBtn">Add note</button>
+        </form>
+    </div>
+    <script type ="text/template" id="noteTemplate">
+        <li class="noteItem" id ="{{noteId}}">
+            <textarea class="text">{{text}}</textarea>
+            <span class="deleteNote">Delete</span>
+        </li>
+    </script>
+</body>
+</html>

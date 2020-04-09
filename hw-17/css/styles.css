@@ -1,0 +1,66 @@
+
+.container{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    
+    background-color: darkcyan;
+}
+.noteHeader{
+    font-size: 40px;
+    color: rgb(233, 175, 50);
+    margin-bottom: 20px;
+}
+.noteBoard{
+    width: 60%;
+    min-height: 500px;
+    background-color: darkgray;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.noteItem{
+    display:inline-block;
+    width: 200px;
+    min-height: 100px;
+    background-color: aquamarine;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.text{
+    min-height: 70px;
+    background-color: coral;
+    padding: 5px;
+    border-radius: 10px;
+}
+.deleteNote{
+    display: block;
+    padding: 5px 10px;
+    background-color: brown;
+    border-radius: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+.textNote{
+    border: 1px solid red;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: darkgoldenrod;
+    width: 450px;
+}
+.addBtn{
+    background-color: darkgoldenrod;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-size: 22px;
+}
+.nodeItem{
+    background-color: yellowgreen;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+}
